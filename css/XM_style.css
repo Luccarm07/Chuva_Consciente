@@ -1,18 +1,38 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
 
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
 
+  nav ul li {
+    margin: 5px;
+  }
 
-header h1 {
-  font-size: 1.8rem;
-}
- 
-nav ul {
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
- 
-main {
-  padding: 20px;
-}
- 
+  main {
+    padding: 20px;
+  }
+
+  .conteudo {
+    font-size: 1rem;
+    padding: 25px;
+  }
+
+  .conteudo h3 {
+    font-size: 1.3rem;
+  }
+
+  .secao-emergencia {
+    padding: 25px;
+    font-size: 1rem;
+  }
+
+  .secao-emergencia h3 {
+    font-size: 1.3rem;
+  }
+
+  
 }

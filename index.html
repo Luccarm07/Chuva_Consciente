@@ -27,13 +27,24 @@
       <nav>
     <ul>
         <li><a href="causas.html">Causas</a></li>
-        <li><a href="prevencao.html" class="ativo">Prevenção</a></li>
+        <li><a href="prevencao.html">Prevenção</a></li>
         <li><a href="emergencia.html">Emergência</a></li>
         <li><a href="impactos.html">Impactos</a></li>
     </ul>
   </nav>
 
 </section>
+
+<section class="endereco-section">
+  <h2 class="fundo-subtitulo">Informe seu Endereço</h2>
+  <form id="form-endereco">
+    <label for="endereco">Endereço:</label>
+    <input type="text" id="endereco" name="endereco" placeholder="Rua, número, bairro" required />
+    <span id="msg-erro" class="msg-erro"></span>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
 </main>
  
   <footer>
@@ -41,9 +52,10 @@
     <a href="index.html">🏠 </a>
     <a href="integrantes.html">📅 </a>
     <a href="faq.html">💬 </a>
-    <a href="contatos.html"> 📞 </a>
+    <a href="contato.html"> 📞 </a>
   </nav>
   </footer>
 
 </body>
+<script src="script/script.js"></script>
 </html>

@@ -1,25 +1,41 @@
-
 @media screen and (min-width: 1200px) {
+  header h1 {
+    font-size: 2.2rem;
+    margin-top: 20px;
+  }
+
+  nav ul {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  main {
+    padding: 30px;
+  }
+  
 
 
+  .conteudo {
+    font-size: 1.1rem;
+    padding: 30px;
+  }
 
-header h1 {
-  font-size: 2.2rem;
-  margin-top: 20px;
-}
- 
-nav ul {
-  justify-content: center;
-}
- 
-nav ul li {
-  margin: 0 15px;
-}
- 
-main {
-  padding: 30px;
-}
- 
+  .conteudo h3 {
+    font-size: 1.4rem;
+  }
 
+  .secao-emergencia {
+    padding: 30px;
+    font-size: 1.1rem;
+  }
+
+  .secao-emergencia h3 {
+    font-size: 1.5rem;
+  }
 
 }
+

@@ -18,6 +18,33 @@ main {
   margin: 10px auto;
   padding: 10px;
 }
+
+.conteudo {
+  padding: 15px;
+  font-size: 0.95rem;
+}
+
+.conteudo h3 {
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+.secao-emergencia {
+  padding: 15px;
+  font-size: 0.95rem;
+}
+
+.secao-emergencia h3 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.secao-emergencia ul {
+  margin-left: 15px;
+}
+
+
+
  
 
 }
