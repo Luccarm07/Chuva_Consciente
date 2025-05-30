@@ -42,7 +42,7 @@ body {
 }
 
 .texto-introducao {
-  font-size: 0.5 rem;
+  font-size: 0.9rem;
   margin-top: 10px;
   max-width: 750px;
   line-height: 1.3;
@@ -213,4 +213,22 @@ footer {
   margin-bottom: 10px;
   height: 20px;
   display: block;
+}
+
+.botao-animado {
+  transition: all 0.3s ease;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #005f7a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.botao-animado:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
