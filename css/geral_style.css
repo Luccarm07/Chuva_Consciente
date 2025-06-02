@@ -16,21 +16,13 @@ body {
  
 /* Cabeçalho */
 .topo {
-  background-image: url("../img/capa_colonia.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  height: 250px;
-  color: white;
-
+  height: 200px;
+  width: 100%;
+  background-color: #0099cc;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
-  text-align: center;
-  text-shadow: 1px 1px 4px #000;
 }
 
 
@@ -399,23 +391,3 @@ input[type="checkbox"]:checked ~ .faq-answer {
   display: block;
 }
 
-input, select, textarea, button {
-  padding: 0.5em;
-  font-size: 1em;
-}
-
-button {
-  background-color: #3aafa9;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #2b7a78;
-}
-
-.mensagem-status {
-  margin-top: 1em;
-  font-weight: bold;
-}

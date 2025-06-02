@@ -6,10 +6,9 @@
 
 ## 🌐 Páginas do Sistema
 
-- **Home (index.html)**: Apresentação do projeto, com destaque para ações de conscientização e dicas sustentáveis.
-- **FAQ (faq.html)**: Página de perguntas frequentes sobre uso responsável da água e funcionalidades do site.
+- **Home (index.html)**: Interface inicial acessível, com navegação intuitiva com opções para conscientizar e previnir contra enchentes   .
+- **FAQ (faq.html)**: Página de perguntas frequentes sobre as enchentes e funcionalidades do site.
 - **Contato (contato.html)**: Canal de comunicação com a equipe do projeto, com formulário validado via JavaScript.
-- **Dicas (dicas.html)**: Dicas práticas para economizar água e evitar o desperdício.
 - **Impactos (impactos.html)**: Informações sobre os impactos da escassez de água e mudanças climáticas.
 - **Soluções (solucoes.html)**: Propostas de soluções sustentáveis e participativas para melhorar o uso da água.
 
@@ -71,10 +70,8 @@ Utilizamos media queries com breakpoints organizados em arquivos CSS separados, 
 
 ## 🔗 Repositório GitHub
 
-📁 Acesse o projeto completo:  
-[https://github.com/Luccarm07/ChuvaConsciente](https://github.com/Luccarm07/ChuvaConsciente)
 
 ---
 
 Obrigado por visitar o repositório!  
-Contribuições são bem-vindas. 🚀
+
