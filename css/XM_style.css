@@ -34,5 +34,43 @@
     font-size: 1.3rem;
   }
 
+  /* Estilos para tablets e celulares deitados */
+
+.contato-container {
+  flex-direction: column;
+  padding: 2em;
+  gap: 2em;
+}
+
+nav ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.formulario form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input, select, textarea {
+  width: 100%;
+}
+
+ .contato-container {
+    flex-direction: column;
+    padding: 2em;
+    gap: 2em;
+  }
+
+  .formulario form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  input, select, textarea {
+    width: 100%;
+  }
+
   
 }

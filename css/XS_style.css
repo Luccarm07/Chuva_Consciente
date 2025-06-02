@@ -43,8 +43,20 @@ main {
   margin-left: 15px;
 }
 
+  .contato-container {
+    padding: 1em;
+    flex-direction: column;
+  }
+
+  .formulario form {
+    font-size: 0.95em;
+  }
+
+  input, select, textarea {
+    width: 100%;
 
 
  
 
+}
 }

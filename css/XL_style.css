@@ -37,5 +37,25 @@
     font-size: 1.5rem;
   }
 
+   .contato-container {
+    flex-direction: column;
+    padding: 2em;
+    gap: 2em;
+  }
+
+  .formulario form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  input, select, textarea {
+    width: 100%;
+  } .contato-container {
+    flex-direction: column;
+    padding: 2em;
+    gap: 2em;
+  }
+
+
 }
 

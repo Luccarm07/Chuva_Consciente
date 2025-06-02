@@ -16,11 +16,7 @@ if (formEndereco && inputEndereco && msgErro) {
       msgErro.style.color = "red";
     }
 
-    // Se quiser que o alert apareça apenas com endereço válido:
-    if (padrao.test(inputEndereco.value.trim())) {
-      alert(`Endereço "${inputEndereco.value}" registrado com sucesso!`);
-      inputEndereco.value = "";
-    }
+  
   });
 }
 
@@ -54,4 +50,28 @@ if (botaoImpactos) {
   });
 }
 
+document.getElementById("formContato").addEventListener("submit", function(event) {
+  event.preventDefault();
 
+  const nome = document.getElementById("nome").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const assunto = document.getElementById("assunto").value;
+  const mensagem = document.getElementById("mensagem").value.trim();
+  const status = document.getElementById("mensagemStatus");
+
+  if (!nome || !email || !assunto || !mensagem) {
+    status.textContent = "Por favor, preencha todos os campos.";
+    status.style.color = "red";
+    return;
+  }
+
+  if (!email.includes("@") || !email.includes(".")) {
+    status.textContent = "Por favor, insira um e-mail válido.";
+    status.style.color = "red";
+    return;
+  }
+
+  status.textContent = "Mensagem enviada com sucesso!";
+  status.style.color = "green";
+  document.getElementById("formContato").reset();
+});
