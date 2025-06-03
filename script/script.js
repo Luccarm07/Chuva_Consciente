@@ -1,22 +1,27 @@
-// Validação de endereço (se existir o formulário)
 const formEndereco = document.getElementById('form-endereco');
 const inputEndereco = document.getElementById('endereco');
 const msgErro = document.getElementById('msg-erro');
-
-if (formEndereco && inputEndereco && msgErro) {
+const imagemContainer = document.getElementById('imagem-container');
+ 
+if (formEndereco && inputEndereco && msgErro && imagemContainer) {
   formEndereco.addEventListener('submit', (e) => {
     e.preventDefault();
     const padrao = /^(Rua|R\.|Avenida|Av\.|Rodovia|Rod\.)\s.+$/i;
-
+ 
     if (padrao.test(inputEndereco.value.trim())) {
       msgErro.textContent = "Endereço válido ✅";
       msgErro.style.color = "green";
+ 
+      // Mostra a imagem
+      imagemContainer.innerHTML = `<img src="img/localizacao.png" alt="Imagem do endereço" style="max-width: 100%; height: auto;">`;
+ 
     } else {
       msgErro.textContent = "Endereço inválido. Comece com Rua, R., Avenida, Av., Rodovia ou Rod.";
       msgErro.style.color = "red";
+ 
+      // Remove imagem se houver
+      imagemContainer.innerHTML = '';
     }
-
-  
   });
 }
 
