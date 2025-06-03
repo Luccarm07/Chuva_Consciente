@@ -18,7 +18,7 @@
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (puro)**
+- **JavaScript**
 
 ### 📁 Organização dos Arquivos CSS
 
