@@ -1,0 +1,442 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+ 
+body {
+  font-family: Arial;
+  line-height: 2.5;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 0 10px;
+  margin-bottom: 70px;
+
+}
+ 
+
+
+
+.fundo-subtitulo {
+  background-color: #1f5d96;
+  padding: 10px 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-align: center;
+  
+}
+
+.texto-introducao {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  max-width: 850px;
+  line-height: 1.3;
+  text-align: center;
+
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 0 10px;
+  
+}
+
+ 
+
+nav ul li {
+  flex-grow: 1;
+  display: flex;
+  justify-content:center;
+  width: 100%
+
+}
+ 
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: #1155ad;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  width: 100%;
+  text-align: center;
+  min-width: 150px;
+  max-width: 500px;
+  font-weight: bold;
+
+}
+
+ 
+/* Conteúdo principal */
+main {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 0 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #443f3f;
+  position: relative;
+  margin-bottom: 100px; /* Espaço para o rodapé fixo */
+}
+ 
+.introducao {
+  padding: 20px;
+  text-align: center;
+}
+ 
+
+ 
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #004585;
+  color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  
+}
+
+.footer-menu{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.conteudo {
+  padding: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.conteudo h3 {
+  color: #06495c;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.conteudo p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+/* Seção de emergência */
+.secao-emergencia {
+  padding: 20px;
+  text-align: left;
+  color: #333;
+}
+
+.secao-emergencia h3 {
+  color: #cc0000;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.secao-emergencia p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.secao-emergencia ul {
+  margin-left: 20px;
+  list-style-type: square;
+  padding: 10px 0;
+}
+
+.secao-emergencia ul li {
+  margin-bottom: 8px;
+}
+
+.endereco-section {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #e6f7ff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.endereco-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.endereco-section input[type="text"] {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #1f5d96;
+  font-size: 1rem;
+}
+
+.endereco-section button {
+  padding: 10px 20px;
+  background-color: #1f5d96;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.endereco-section button:hover {
+  background-color: #1f5d96;
+}
+
+.msg-erro {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  height: 20px;
+  display: block;
+}
+
+.botao-animado {
+  transition: all 0.3s ease;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1976D2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.botao-animado:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.lista-prevencao {
+  list-style: inside square;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #1f5d96;
+}
+
+.mais-conteudo {
+  margin-top: 10px;
+  background-color: #e6f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.escondido {
+  display: none;
+}
+
+#botao-mais {
+  padding: 10px 15px;
+  background-color:#1f5d96;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#botao-mais:hover {
+  background-color:#1f5d96;
+}
+
+.bloco-info {
+  background-color: #e6f0fa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #1f5d96;
+  border-radius: 8px;
+}
+
+.alerta {
+  background-color: #ffe0e0;
+  color: #a30000;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.escondido {
+  display: none;
+}
+
+#botao-impactos {
+  display: block;
+  margin: 0 auto;
+  padding: 0.7rem 1.5rem;
+  background-color: #1f5d96;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.conteiner-integrantes{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: center;
+  gap: 30px;
+  line-height: normal;
+}
+ 
+.card-fotos{
+  width: 300px;
+  height: 501px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  background-color: #f9f9f9;
+ 
+}
+ 
+.foto {
+  width: 240px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.primary {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #1f5d96;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+ 
+/* Container FAQ */
+.faq-container {
+  max-width: 800px;
+  margin: 1.5rem auto;
+  padding: 1 1rem;
+}
+ 
+/* Cada item */
+.faq-item {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+
+}
+ 
+.faq-item:hover {
+  transform: scale(1.005);
+}
+ 
+/* Pergunta */
+.faq-question {
+  display: block;
+  padding: 0.9rem 1.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+  background-color: #c4cbca;
+  transition: background-color 0.3s ease;
+}
+ 
+.faq-question:hover {
+  background-color: #cceae7;
+}
+ 
+/* Resposta */
+.faq-answer {
+  padding: 0.8rem 1.2rem;
+  background-color: #f9f9f9;
+  border-top: 1px solid #dfe6ed;
+  display: none;
+  animation: fadeIn 0.25s ease-in-out;
+}
+ 
+input[type="checkbox"] {
+  display: none;
+}
+ 
+input[type="checkbox"]:checked ~ .faq-answer {
+  display: block;
+}
+
+#botao-enviar {
+  background-color: #1f5d96;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+}
+
+#nome, #email, #assunto, #mensagem-texto {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 300px; /* ou auto + min-height, se quiser adaptar */
+  overflow: hidden;
+}
+
+.header-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Faz a imagem cobrir todo o header */
+  z-index: 0;
+}
+
+.header-texto {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 80px; /* ou use flex para centralizar verticalmente */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Chuva Consciente</title>
+  <link rel="stylesheet" href="css/geral_style.css">
+  <link rel="stylesheet" href="css/XS_style.css">
+  <link rel="stylesheet" href="css/XM_style.css">
+  <link rel="stylesheet" href="css/XL_style.css">
+</head>
+<body>
+
+<header class="header">
+<img src="img/capa_colonia.jpg" alt="Militar da Marinha do Brasil realiza atendimento médico a uma senhora idosa, medindo seus sinais vitais com um estetoscópio. 
+A senhora está sentada, usando um casaco e com os cabelos presos. A ação ocorre ao ar livre, durante o dia, com outras pessoas ao fundo." class="header-img">
+ <div class="header-texto">
+    <h1>Contatos</h1>
+ </div>
+</header>
+ 
+  <main class="contato-container">
+    <section class="contato-info">
+      <h2>Entre em Contato</h2>
+      <p>Tem dúvidas, sugestões ou quer se voluntariar? Fale com a gente!</p>
+      <ul>
+        <li>📧 E-mail: contato@chuvaconsciente.org</li>
+        <li>📱 WhatsApp: (11) 91234-5678</li>
+        <li>📍 Local: Rua Sustentável, 100 – São Paulo, SP</li>
+      </ul>
+    </section>
+
+    <section class="formulario">
+      <form id="formContato">
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+          <option value="">Selecione</option>
+          <option value="duvida">Dúvida</option>
+          <option value="sugestao">Sugestão</option>
+          <option value="parceria">Parceria</option>
+          <option value="voluntariado">Voluntariado</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+        <button type="submit" id="botao-enviar">Enviar Mensagem</button>
+      </form>
+      <div id="mensagemStatus" class="mensagem-status"></div>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="footer-menu">
+      <a href="index.html">🏠</a>
+      <a href="integrantes.html">📅</a>
+      <a href="faq.html">💬</a>
+      <a href="contato.html">📞</a>
+    </nav>
+  </footer>
+
+  <script src="script/script.js"></script>
+</body>
+</html>
