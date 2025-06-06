@@ -6,18 +6,23 @@
 
 ## 🌐 Páginas do Sistema
 
-- **Home (index.html)**: Interface inicial acessível, com navegação intuitiva com opções para conscientizar e previnir contra enchentes   .
+- **Home (index.html)**: Interface inicial acessível, com navegação intuitiva com opções para conscientizar e previnir contra enchentes.
 - **FAQ (faq.html)**: Página de perguntas frequentes sobre as enchentes e funcionalidades do site.
 - **Contato (contato.html)**: Canal de comunicação com a equipe do projeto, com formulário validado via JavaScript.
 - **Impactos (impactos.html)**: Informações sobre os impactos da escassez de água e mudanças climáticas.
-- **Soluções (solucoes.html)**: Propostas de soluções sustentáveis e participativas para melhorar o uso da água.
+- **integrantes (integrantes.html)**: Página dos integrantes do projeto desenvolvido, com suas imagens, nomes e links para gitHub e Linkedin.
+- **Prevenções (prevencao.html)**: Informações sobre como prevenir as enchentes, e uma curiosidade opcional adicionada.
+- **Emergencia(emergencia.html)**: Esta página apresenta o que fazer em diferentes situações das enchentes como: antes , durante e depois.
+- **Causas (causas.html)**: Informações sobre quais são as causas das enchentes.
 
+---
+---
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - **JavaScript**
 
 ### 📁 Organização dos Arquivos CSS
