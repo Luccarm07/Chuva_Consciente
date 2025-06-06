@@ -2,6 +2,7 @@ const formEndereco = document.getElementById('form-endereco');
 const inputEndereco = document.getElementById('endereco');
 const msgErro = document.getElementById('msg-erro');
 const imagemContainer = document.getElementById('imagem-container');
+
  
 if (formEndereco && inputEndereco && msgErro && imagemContainer) {
   formEndereco.addEventListener('submit', (e) => {
@@ -13,7 +14,10 @@ if (formEndereco && inputEndereco && msgErro && imagemContainer) {
       msgErro.style.color = "green";
  
       // Mostra a imagem
-      imagemContainer.innerHTML = `<img src="img/localizacao.png" alt="Imagem do endereço" style="max-width: 100%; height: auto;">`;
+      imagemContainer.innerHTML = `<img src="img/localizacao.png" alt="Imagem do endereço" style="max-width: 100%;"<p>A imagem apresenta o local de risco que você se encontra 
+      e esta te guiando para um local seguro! Devido ao andamento do curso ainda não condições tecnicas de utilizar API de mapas de monitoramento de areas de risco e Ponto seguro, por isso 
+      temos a representação por meio da imagem do funcionamento do sistema.</p>`;
+     
  
     } else {
       msgErro.textContent = "Endereço inválido. Comece com Rua, R., Avenida, Av., Rodovia ou Rod.";
