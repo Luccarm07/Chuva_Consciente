@@ -116,6 +116,12 @@ footer {
   
 }
 
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
 .conteudo {
   padding: 20px;
   line-height: 1.6;
